@@ -1,0 +1,28 @@
+.Mui-selected {
+    background: rgb(98, 89, 195) !important;
+    color: rgb(255, 255, 255) !important;
+}
+
+.MuiTypography-body2 {
+    border-bottom: 2px solid rgb(255, 123, 15);
+    padding: 12px 0px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0rem;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.options__title {
+    color: rgb(81, 81, 81);
+    display: block;
+    font-size: 16px;
+}

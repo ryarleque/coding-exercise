@@ -1,0 +1,82 @@
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card__container {
+    max-width: 273px;
+}
+
+.card__selectable {
+    cursor: pointer;
+    position: relative;
+}
+
+.card__selectable img {
+    width: 100%;
+}
+
+.card__title {
+    margin: 0px;
+    padding: 4px 8px;
+    font-size: 0.8125rem;
+    font-weight: 400;
+    line-height: 1.25em;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    left: 0px;
+    right: 0;
+    bottom: 0;
+    color: white !important;
+}
+
+.card__price {
+    color: white;
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 36px;
+}
+
+.card__description {
+    display: flex;
+    flex-flow: column;
+    font-size: 0.8125rem;
+    font-family: "Muli", sans-serif;
+    font-weight: 400;
+    color: rgb(81, 81, 81);
+    line-height: 22px;
+    padding: 4px 8px;
+}
+
+.card__description__top-section {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 4px;
+}
+
+.card__description__bottom-section {
+    display: flex;
+    flex-flow: column;
+    padding-top: 4px;
+    border-top: 1px solid rgb(219, 219, 219);
+    text-align: center;
+}
+
+.card__description__rent {
+    width: 49%;
+    border-right: 1px solid rgb(219, 219, 219);
+    margin-right: 2%;
+}
+
+.card__description__yield {
+    width: 49%;
+}
+
+.card__description__title {
+    font-weight: 300;
+    line-height: 1;
+    color: rgb(118, 118, 118);
+    font-family: Muli, sans-serif;
+    font-size: 20px;
+}
